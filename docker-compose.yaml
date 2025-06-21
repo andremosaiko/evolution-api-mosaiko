@@ -51,8 +51,6 @@ volumes:
   evolution_redis:
   postgres_data:
 
-
 networks:
   evolution-net:
-    name: evolution-net
-    driver: bridge
+    external: true
